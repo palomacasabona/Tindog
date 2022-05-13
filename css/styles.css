@@ -1,0 +1,181 @@
+body {
+  font-family: 'Montserrat';
+}
+/* title section background color */
+#title {
+  background-color: #ff4c68;
+}
+/* the Download link of the navbar */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  font-family: 'Montserrat-Black', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: 900;
+
+}
+/* Meet New and Interesting Dogs Nearby (Heading) */
+.mainHeading {
+  font-family: 'Montserrat-Black', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding: 0px 0px 18px 0px;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Ubuntu';
+}
+
+.nav-item {
+  padding: 0px 18px;
+  font-family: 'Montserrat';
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+.homeContainer {
+  padding-top: 20px;
+}
+
+#title {
+  position: relative;
+  z-index: 2;
+}
+
+.btn1 {
+  margin-top: 20px;
+}
+
+.btn2 {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+/* text color for the home section */
+.textHome {
+  padding-top: 50px;
+  color: white;
+}
+/* CSS for the mobile image */
+.mobileDog {
+  position: absolute;
+  width: 50%;
+  z-index: 3;
+  transform: rotate(30deg);
+  right: 30%;
+}
+/* features section */
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 3;
+  background-color: #fff;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 4.5%;
+}
+
+h3 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+  white-space: nowrap;
+}
+.cta-head{
+  font-size: 2.6rem;
+  white-space:normal;
+  padding-top: 5%;
+  margin-bottom: 3%;
+  color:#fff;
+}
+.btncta{
+  margin-bottom: 6%;
+}
+
+p {
+  color: grey;
+}
+
+.icon {
+  padding-bottom: 3%;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+/* testimontial section */
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.carousel-inner {
+  width: 50%;
+  margin-left: 24%;
+  padding-top: 7%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+h2 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+}
+/* press section */
+#press {
+  background-color: #ff4c68;
+}
+
+.press-testimonial {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+.press-logo {
+  margin: 5% 5% 5% 5%;
+  width: 13%;
+}
+/* pricing section */
+#pricing {
+  text-align: center;
+  padding: 3% 2%;
+}
+
+.card-holder {
+  padding: 3% 2%;
+}
+/* footer section */
+#footer{
+  background-color: #fff;
+  text-align: center;
+}
+.footer-icon{
+  margin:2%;
+}
+/* media breakpoint for screens of width below 1028px */
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .mobileDog {
+    transform: rotate(0deg);
+    position: static;
+    padding-top: 5%;
+  }
+}
